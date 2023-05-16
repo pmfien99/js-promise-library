@@ -3,7 +3,7 @@ const STATE = {
   REJECTED: "rejected",
   PENDING: "pending",
 }
-
+ 
 class MyPromise {
   #thenCbs = []
   #catchCbs = []
